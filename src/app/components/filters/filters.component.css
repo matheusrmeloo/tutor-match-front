@@ -1,0 +1,29 @@
+p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-right: 12px;
+}
+
+.button-filter {
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.btn {
+  /* padding: 8px 33px 8px 33px; */
+  margin-bottom: 30px;
+  border-radius: 4px;
+  border: solid 1px #bdbdbd;
+  background-color: #dadada;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}

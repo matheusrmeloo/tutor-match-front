@@ -1,0 +1,35 @@
+<div class="flex-container">
+  <div *ngFor = "let item of list">
+      <div class="text-center header">
+          <img class="card-img-top" src={{item.photo}} alt="Card image cap">
+      </div>
+      <div class="body-card">
+        <p class="name"><b>{{item.name}}</b><p>
+        <p class="city" >City</p>
+        <div class="city-name">{{item.city}}</div>
+
+        <p class="students-so">Students so far</p>
+
+        <div class="row students pl-3">
+            <span *ngFor="let student of item.students">
+              <img src="{{student.photo}}" alt="">
+            </span>
+            <!-- <img src="../../../assets/images/user-photo.svg" alt="">
+            <img src="../../../assets/images/user-photo.svg" alt="">
+            <img src="../../../assets/images/user-photo.svg" alt=""> -->
+        </div>
+
+
+          <!-- <p class="tutor-name">John Isaac</p>
+          <p>City</p>
+          <p class="city-name">Manchester</p>
+          <p>Students so far</p> -->
+          <!-- <div class="row img-class-all">
+              <div class="col-1 img-class"><img class="img-fluid" src="../../../assets/images/user-photo.svg" alt=""></div>
+              <div class="col-1 img-class"><img class="img-fluid" src="../../../assets/images/user-photo.svg" alt=""></div>
+              <div class="col-1 img-class"><img class="img-fluid" src="../../../assets/images/user-photo.svg" alt=""></div>
+              <div class="col-1 img-class"><img class="img-fluid" src="../../../assets/images/user-photo.svg" alt=""></div>
+          </div> -->
+      </div>
+  </div>
+</div>

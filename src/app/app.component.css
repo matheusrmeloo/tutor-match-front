@@ -1,0 +1,19 @@
+body {
+    font-family: Avenir;
+    src: url("src/assets/fonts/Avenir.ttc");
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+}
+
+.padding-cards{
+    padding-left: 48px;
+    padding-right:48px;
+}
+
+
+hr {
+    border: solid 1px #e0e0e0;
+    border-radius: 5px;
+    margin: 0px 50px 30px 50px;
+  }

@@ -1,0 +1,105 @@
+.card {
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+.card-img-top {
+    height: 50%;
+    width: 50%;
+}
+
+.header{
+  margin-top: 30px;
+}
+.body-card {
+  background-color: #dfdfdf;
+}
+.name {
+  font-size: 18px;
+  padding-left: 16px;
+  padding-top: 20px;
+}
+.city {
+  padding-left: 16px;
+  /* padding-top: 16px; */
+}
+
+.city-name {
+  width: 90px;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 16px;
+  margin-top: -8px;
+  text-align: center;
+  margin-bottom: 14px;
+
+}
+
+.students-so {
+  padding-top: 16px;
+  margin-left: 16px;
+}
+
+.img-class-all{
+  margin-left: 10px;
+  /* background-color: red;
+  padding-top: 20px; */
+}
+
+.img-class{
+  width: 2px!important;
+  /* height: 60px; */
+
+  /* padding:auto; */
+  margin-left: 5px;
+  border-radius: 50%;
+  background-color: #F1F1F1;
+}
+
+
+.students {
+  margin-left: 1px;
+  padding-bottom: 20px;
+}
+
+.students img {
+  height: 40px;
+  background-color: #f0f0f0;
+  padding-top: 5px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 315px;
+  margin: 10px;
+}
+
+
+/* .card-body .city-name {
+    padding: 5px;
+    background-color: #fff;
+    max-width: 90px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 16px;
+} */
+
+
+/* .students img {
+    height: 24px;
+    background-color: #f0f0f0;
+    padding-top: 5px;
+    border-radius: 50px;
+    margin-right: 10px;
+
+} */
